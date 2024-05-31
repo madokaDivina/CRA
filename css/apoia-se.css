@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'sans-serif';
+}
+
+.logo img{
+    height: 10em;
+
+}
+.pix{
+    background-color: #31A8F7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.txt{
+    padding-left: 75%;
+    font-size: large;
+    color: #faf8f8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+header{
+    background-color: #31A8F7;
+    box-shadow: 0px 3px 10px black;
+}
+
+
+
+
+
+
+
+.nav-bar{
+    display: flex;
+    justify-content:space-between;
+    padding: 1.5rem 6rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 10rem;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+   
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item{
+    margin: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 3rem;
+    
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.loginibutton button{
+    border: none;
+    text-decoration: none;
+    border-radius: 0.36em;
+    color: white;
+    position: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border:none;
+    background-color: #1d6594;
+    padding: 0.4em 3em;
+    margin:0.5em;
+    cursor: POINTER;
+    
+}
+.contenedor{
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    contain: paint;
+}
+
+.contenedor .contenedor-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap:30px;
+    grid-row-gap: 30px;
+    width: 100%;
+    transition: .3s;
+}
+.contenedor .contenedor-items .item{
+    max-width: 200px;
+    margin: auto;
+    border: 0.2em solid black;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+}
+.contenedor .contenedor-items .item .img-item{
+    width: 140px;
+    height: 140px;
+}
+.contenedor .contenedor-items .item:hover{
+    box-shadow: 0 0 10px black;
+    scale: 1.05;
+}
+.contenedor .contenedor-items .item .titulo-item{
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+}
+.contenedor .contenedor-items .item .precio-item{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contenedor .contenedor-items .item .boton-item{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: #31A8F7;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.loginibutton button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+
+
+
+#criar{
+    text-decoration: none;
+    border: none;
+    border-radius: 0.36em;
+    color: white;
+    background-color: #1d6594;
+    padding: 0.4em 3em;
+    margin: 0.5em;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+ #criar {
+    border: 0.2em solid #1d6594;
+
+  }
+  
+  #criar{
+    border:none;
+    background-color: #1d6594;
+    padding: 0.4em 3em;
+    margin:0.5em;
+    cursor: POINTER;
+  }

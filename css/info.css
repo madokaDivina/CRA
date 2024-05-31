@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+
+div{
+    max-width: 200px;
+    margin: auto;
+    position: 50%;
+}
+
+#foto{
+    height: 250px;
+    width: 182px;
+    border: 0.2em solid black;
+    border-radius: 10px;    
+}
+
+
+
+   #logo{
+    position: 50%;
+    height: 10em;
+
+  }
+
+  #inicio{
+    text-decoration: none;
+    border: none;
+    border-radius: 0.36em;
+    color: white;
+    background-color: #31A8F7;
+    position: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border:none;
+    background-color: #31A8F7;
+    padding: 0.4em 3em;
+    margin:0.5em;
+    cursor: POINTER;
+  }
+  
+  #inicio:hover:hover{
+    background-color: #1d6594;
+    color: white;
+  }
+
+  #info{
+    margin: 9em;
+    background-color: white;
+    border-radius: 0.7em;
+    padding: 0.5em;
+    box-shadow: #31A8F7 0.2em 0.2em 1em;
+   }
+
+   #botao_card{
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: #31A8F7;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
