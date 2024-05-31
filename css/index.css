@@ -1,9 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'sans-serif';
+    font-family: Arial, sans-serif;
 }
-
 
 .logo img{
     height: 10em;
@@ -14,12 +13,6 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-#desc{
-    font-family: 'Courier New', Courier, monospace;
 }
 
 header{
@@ -27,35 +20,42 @@ header{
     box-shadow: 0px 3px 10px black;
     height: 10em;
 }
-.nav-bar{
+
+nav{
     display: flex;
     justify-content:space-between;
-    padding: 1.5rem 6rem;
 }
+
+.loginibutton{
+    display:block;
+    padding: 3em; 
+}
+
 .logo{
     display: flex;
     align-items: center;
     height: 10rem;
 }
+
 .nav-list{
     display: flex;
     align-items: center;
-   
 }
+
 .nav-list ul{
     display: flex;
     justify-content: center;
     list-style: none;
 }
+
 .nav-item{
     margin: 20px;
+    list-style: none;
 }
-
-
 
 .contenedor{
     max-width: 1200px;
-    padding: 10px;
+    padding: 1em;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -71,24 +71,25 @@ header{
     width: 100%;
     transition: .3s;
 }
+
 .item{
     max-width: 200px;
     margin: auto;
-    border: 0.2em solid black;
+    border: 0.1em solid black;
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
 }
+
 .img-item{
     width: 140px;
     height: 140px;
 }
+
  .item:hover{
     box-shadow: 0 0 10px black;
     scale: 1.05;
 }
-
-
 
  #botao_card{
     text-decoration: none;
@@ -97,47 +98,33 @@ header{
     border: none;
     background-color: #31A8F7;
     color: #fff;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-
 .mobile-menu-icon{
     display: none;
 }
+
 .mobile-menu{
     display: none;
 }
-
-
 
 #criar{
     text-decoration: none;
     border: none;
     border-radius: 0.36em;
     color: white;
-    background-color: #1d6594;
-    padding: 0.4em 3em;
-    margin: 0.5em;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
-  
- #criar {
-    border: 0.2em solid #1d6594;
-
-  }
-  
-  #criar{
-    border:none;
     background-color: #1d6594;
     padding: 0.4em 3em;
     margin:0.5em;
     cursor: POINTER;
-  }
+}
 
-  #bot{
+#bot{
     text-decoration: none;
     border: none;
     border-radius: 0.36em;
@@ -147,5 +134,4 @@ header{
     margin: 0.5em;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    
-  }
+}

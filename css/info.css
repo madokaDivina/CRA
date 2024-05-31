@@ -15,7 +15,9 @@ div{
     border-radius: 10px;    
 }
 
-
+body{
+  display: ruby-text;
+}
 
    #logo{
     position: 50%;
