@@ -1,17 +1,8 @@
-h1{
-    text-align: center;
-}
 
-div{
-    max-width: 200px;
-    margin: auto;
-    position: 50%;
-}
 
 #foto{
     height: 250px;
     width: 182px;
-    border: 0.2em solid black;
     border-radius: 10px;    
 }
 
@@ -47,11 +38,13 @@ body{
   }
 
   #info{
-    margin: 9em;
+    margin: 1em 9em;
     background-color: white;
     border-radius: 0.7em;
-    padding: 0.5em;
+    padding: 1em 8em;
     box-shadow: #31A8F7 0.2em 0.2em 1em;
+    max-width: 200px;
+    position: 50%;
    }
 
    #botao_card{
@@ -66,3 +59,64 @@ body{
     text-align: center;
     cursor: pointer;
 }
+
+
+
+/* .logo img{
+  height: 10em;
+}
+
+header{
+  background-color: #31A8F7;
+  box-shadow: 0px 3px 10px black;
+  height: 10em;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+}
+
+.loginibutton{
+  display:block;
+  padding: 3em; 
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 10rem;
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item{
+  margin: 20px;
+  list-style: none;
+}
+
+h1{
+    text-align: center;
+    margin: 0.2em;
+}
+#criar{
+  text-decoration: none;
+  border: none;
+  border-radius: 0.36em;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #1d6594;
+  padding: 0.4em 3em;
+  margin:0.5em;
+  cursor: POINTER;
+} */

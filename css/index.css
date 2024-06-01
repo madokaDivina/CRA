@@ -8,12 +8,7 @@
     height: 10em;
 }
 
-#titulo{
-    display: block;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-}
+
 
 header{
     background-color: #31A8F7;
@@ -51,6 +46,13 @@ nav{
 .nav-item{
     margin: 20px;
     list-style: none;
+}
+
+#titulo{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .contenedor{
@@ -134,4 +136,15 @@ nav{
     margin: 0.5em;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+}
+
+.texto-site{
+    border: 0.1em black;
+    border-radius: 10px;
+    margin: 5em 10em;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
 }

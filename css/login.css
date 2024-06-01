@@ -2,16 +2,15 @@
     font-family: 'Mulish', sans-serif;
     text-align: center;
     font-size: 0.95em;
-    
   }
 
-  
   h1{
     font-size: 4em;
-
   }
 
-  
+  input{
+    border-radius: 0.36em;
+  }
 
   #criar{
     text-decoration: none;
@@ -23,30 +22,14 @@
     margin: 0.5em;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
-  
- #criar {
-    border: 0.2em solid #31A8F7;
-
-  }
-  
-  #criar{
-    border:none;
-    background-color: #31A8F7;
-    padding: 0.4em 3em;
-    margin:0.5em;
     cursor: POINTER;
   }
 
-
-  
   #criar:hover:hover{
     background-color: #1d6594;
     color: white;
   }
 
-  
-  
   #inicio{
     text-decoration: none;
     border: none;
@@ -68,8 +51,6 @@
     color: white;
   }
 
-
-  
   #loginbox{
    margin: 9em;
    background-color: white;
@@ -78,19 +59,15 @@
    box-shadow: #31A8F7 0.2em 0.2em 1em;
   }
 
-
   #logo{
     position: 50%;
     height: 15em;
-
   }
 
-  
   .cod{
     margin: 0.3em;
     padding: 0.4em 6em;
   }
-  
 
   #logar{ 
     text-decoration: none;
