@@ -88,4 +88,14 @@ header ul{
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+span{
+    background-color: #31a8F7;
+    position: absolute;
+    top: 60%;
+    left: 77%;
+    transform: translate(-10%, -50%);
+    padding: 62px;
+    border-radius: 15px;
+    color: #ffffff;
+}
 

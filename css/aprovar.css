@@ -59,5 +59,19 @@ body{
     text-align: center;
     cursor: pointer;
 }
+#validacao{
+    position: top;
+}
 
-
+#reprovar{
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: #31A8F7;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}

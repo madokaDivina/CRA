@@ -88,7 +88,7 @@ input {
     border-radius: 0.6em;
 }
 
-button {
+#button {
     margin: 0.5em;
     height: 2.5em;
     width: 18em;
@@ -99,3 +99,9 @@ button {
     color: white;
 }
 
+#Foto{
+    margin: 0.4;
+    border: none;
+    border-radius: none;
+    
+}
