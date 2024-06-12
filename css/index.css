@@ -189,3 +189,15 @@ h1{
 .hidden {
     display: none;
 }
+#logout {
+    text-decoration: none;
+    border: none;
+    border-radius: 0.36em;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #1d6594;
+    padding: 0.4em 3em;
+    margin:1.5em;
+    cursor: pointer;
+}
