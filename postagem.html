@@ -18,8 +18,8 @@
         </div>
 
         <div class="loginibutton">
-          <a id ="criar" type="submit" href="cadastro.html">Cadastrar-se</a>
-          <a id ="criar" type="submit" href="login.html">Login</a>
+          <a id="criar" type="submit" href="cadastro.html">Cadastrar-se</a>
+          <a id="criar" type="submit" href="login.html">Login</a>
         </div>
       </nav>
     </header>
@@ -34,15 +34,24 @@
         <input type="date" placeholder="Data do desaparecimento" id="Data">
         <input type="text" placeholder="Última localização" id="Última-localização">
         <input type="text" placeholder="Informações adicionais" id="Informações-adicionais">
-        <input type="file" placeholder="Foto rescente" id="Foto">
-        <button id ="criar" type="submit" onclick="postagem()" >Postar informações</button>
+        
+        <div class="custom-file-input">
+            <input type="file" id="arquivo" name="arquivo">
+            <label for="arquivo" class="custom-file-label">Escolher arquivo</label>
+            <span id="file-name">Nenhum arquivo escolhido</span>
+        </div>
+        <br>
+        
+        <button id="criar" type="submit" onclick="postagem()">Postar informações</button>
     </form>
     </div>
-    <header><br>
-      <ul>
-          <li class="nav-item"><a href="apoia-se.html" id="bot">Apoia-se</a></li>
-          <li class="nav-item"><a href="sobre.html" id="bot">Sobre</a></li>
-      </ul>
-  </header>
+    
+
+  <script>
+    document.getElementById('arquivo').addEventListener('change', function() {
+        var fileName = this.files[0].name;
+        document.getElementById('file-name').textContent = fileName;
+    });
+  </script>
 </body>
 </html>

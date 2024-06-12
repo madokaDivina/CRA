@@ -9,30 +9,8 @@ function local(){
     return dados    
 }
 
-function logon(){  
-  const dados = JSON.parse(localStorage.getItem("tds"))
-  let login = document.querySelector("#login").value
-  let senha = document.querySelector("#senha").value
 
-for (let i = 0; dados.length > i; i++) {
 
-    if (login == dados[i].nome && senha == dados[i].senha) {
-      console.log("conectado")
-      let n = JSON.stringify(dados[i]);
-      sessionStorage.setItem("user", n)
-      let url = "index.html"
-      window.open(url)
-      window.close("login.html")  
-      break
-    } else{
-      if (login == "AnalistaCRA" && senha == "1234")
-      console.log("conectado")
-      let url = "analista.html"
-      window.open(url)
-      window.close("login.html")  
-    }
-  }
- }
 
 
 
@@ -53,19 +31,33 @@ function logaout(){
 
 
 
-function adicionar() {
-  var ClienteArray = JSON.parse(localStorage.getItem("tds"))
-  let login = document.querySelector("#login").value
-  let senha = document.querySelector("#senha").value
-  let user = { id: Date.now(), nome: login, senha: senha }
-  ClienteArray.push(user)
-  localStorage.setItem("tds", JSON.stringify(ClienteArray))
-  alert("Registro adicionado.")
-  let url = "login.html"
-  window.open(url)
-  window.close("cadastro.html")
+document.getElementById("termos").addEventListener("change", function() {
+  if (this.checked) {
+      document.getElementById("termosModal").style.display = "block";
+  }
+});
+
+function closeModal() {
+  document.getElementById("termosModal").style.display = "none";
 }
 
+function adicionar() {
+  if (!document.getElementById("termos").checked) {
+      alert("Você deve aceitar os termos de responsabilidade para criar um cadastro.");
+      return;
+  }
+
+  var ClienteArray = JSON.parse(localStorage.getItem("tds")) || [];
+  let login = document.querySelector("#login").value;
+  let senha = document.querySelector("#senha").value;
+  let user = { id: Date.now(), nome: login, senha: senha };
+  ClienteArray.push(user);
+  localStorage.setItem("tds", JSON.stringify(ClienteArray));
+  alert("Registro adicionado.");
+  let url = "login.html";
+  window.open(url);
+  window.close("cadastro.html");
+}
 
 
 function postagem() {

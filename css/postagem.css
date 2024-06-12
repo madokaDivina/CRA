@@ -22,11 +22,11 @@ h3{
 
 nav{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .loginibutton{
-    display:block;
+    display: block;
     padding: 3em; 
 }
 
@@ -51,11 +51,11 @@ header ul{
     transition: 0.5s;
     background-color: #1d6594;
     padding: 0.4em 3em;
-    margin:0.5em;
+    margin: 0.5em;
     cursor: POINTER;
-  }
+}
 
-  #bot{
+#bot{
     text-decoration: none;
     border: none;
     border-radius: 0.36em;
@@ -65,7 +65,7 @@ header ul{
     margin: 0.5em;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
+}
 
 form{
     padding: 0em 28%;
@@ -78,7 +78,6 @@ form{
     text-align: center;
 }
 
-
 input {
     margin: 0.4em;
     padding: 0.9em 1em;
@@ -88,20 +87,39 @@ input {
     border-radius: 0.6em;
 }
 
-#button {
-    margin: 0.5em;
-    height: 2.5em;
-    width: 18em;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 0.6em;
-    background-color: #1d6594;
-    color: white;
+.custom-file-input {
+    position: relative;
+    display: inline-block;
+    width: 28em;
+    height: 1.5em;
+    margin: 0.4em;
 }
 
-#Foto{
-    margin: 0.4;
-    border: none;
-    border-radius: none;
-    
+.custom-file-input input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.custom-file-label {
+    display: block;
+    height: 100%;
+    border: none; /* Remover a borda */
+    border-radius: 0.6em;
+    padding: 0.9em 1em;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Fundo branco */
+    cursor: pointer;
+}
+
+#file-name {
+    display: block;
+    margin-top: 0.4em;
+    font-size: 0.9em;
+    color: #666;
 }

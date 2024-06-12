@@ -113,7 +113,7 @@ nav{
     display: none;
 }
 
-#criar{
+#postagem{
     text-decoration: none;
     border: none;
     border-radius: 0.36em;
@@ -122,10 +122,33 @@ nav{
     transition: 0.5s;
     background-color: #1d6594;
     padding: 0.4em 3em;
-    margin:0.5em;
+    margin:1.5em;
     cursor: POINTER;
 }
-
+#cadastro{
+    text-decoration: none;
+    border: none;
+    border-radius: 0.36em;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #1d6594;
+    padding: 0.4em 3em;
+    margin:1.5em;
+    cursor: POINTER;
+}
+#login{
+    text-decoration: none;
+    border: none;
+    border-radius: 0.36em;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #1d6594;
+    padding: 0.4em 3em;
+    margin:1.5em;
+    cursor: POINTER;
+}
 #bot{
     text-decoration: none;
     border: none;
@@ -147,4 +170,22 @@ nav{
 
 h1{
     text-align: center;
+}
+.user-info {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333; /* Ajuste a cor conforme necessário */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.loginibutton {
+    display: flex;
+    gap: 10px;
+}
+
+.hidden {
+    display: none;
 }
